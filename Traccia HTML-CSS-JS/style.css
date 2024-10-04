@@ -1,0 +1,38 @@
+    body {
+    font-family: Arial, sans-serif; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; 
+    min-height: 100vh; 
+    }
+    
+    .homebar{
+        display:flex;
+        background: rgb(61, 58, 58)
+    }
+    .homebar a{
+        padding: 10px;
+        text-decoration: none;
+        text-align: left;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: #faf8f0;
+
+    }
+
+    .main-content {
+    flex: 1;
+    padding: 20px;
+    }
+
+    .icons{
+        text-align: center;
+         background: rgb(61, 58, 58);
+         color: blanchedalmonds
+    }
+
+    .icons svg{
+        width: 42px;
+        height: 42px;
+        fill: #faf8f0;
+    }
